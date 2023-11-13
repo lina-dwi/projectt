@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Erlan', 'Aidar', 'Ainaz', 'Anant', 'Arslan', 'Asman', 'Damir', 'Dauren', 'Dinar', 'Diniyar', 'Marsel', 'Max', 'Muhamadeev', 'Murat', 'Nur', 'Oleg', 'Ramazan', 'Sasha', 'Takiullin', 'Ural', 'Vildan']
+
+roboflow:
+  workspace: twwist-3bevr
+  project: sh-media-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/twwist-3bevr/sh-media-2/dataset/1
